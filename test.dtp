@@ -4,12 +4,18 @@
 		[['RobotPosX', '', 1.0, 0.0, 'Virual position from position controller X', True], 
 		['RobotPosY', '', 1.0, 0.0, 'Virual position from position controller Y', True], 
 		['Joystick', '', 1.0, 0.0, 'Joystick response', True], 
-		['JoystickResponse', '', 1.0, 0.0, '', True], 
+		['JoystickResponse', '', 1.0, 0.0, 'registered joystick response', True], 
 		['direction', '', 1.0, 0.0, '', True], 
 		['AorP', '', 1.0, 0.0, 'Active or passive trial', True], 
 		['ShowHand', '', 1.0, 0.0, 'When the hand cursor is visible', True], 
 		['HandShiftX', '', 1.0, 0.0, 'Shift in hand cursor X', True], 
-		['HandShiftY', '', 1.0, 0.0, 'Shift in hand cursor Y', True]]
+		['HandShiftY', '', 1.0, 0.0, 'Shift in hand cursor Y', True], 
+		['PosControllerEnable', '', 1.0, 0.0, 'Enable signal for the position controller', True], 
+		['ForceChannelEnable', '', 1.0, 0.0, 'Enable signal for the force channel', True], 
+		['ForceChannelRightX', '', 1.0, 0.0, 'Right arm, Force Channel X', True], 
+		['ForceChannelRightY', '', 1.0, 0.0, 'Right arm, Force Channel Y', True], 
+		['ForceChannelLeftX', '', 1.0, 0.0, 'Left arm, Force Channel X', True], 
+		['ForceChannelLeftY', '', 1.0, 0.0, 'Left arm, Force Channel Y', True]]
 	</analog_inputs>
 	<blocktable>
 		[['1,2,3', 5, '', False, 0], 
@@ -38,7 +44,7 @@
 		u''
 	</instructions_default>
 	<last_modified>
-		'2019-11-01  11:30 AM'
+		'2019-11-05  10:41 AM'
 	</last_modified>
 	<loadtable>
 		[[1.0, 5.0, 5000.0, -20.0]]
