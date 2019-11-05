@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+<task_protocol>
+	<analog_inputs>
+		[['RobotPosX', '', 1.0, 0.0, 'Virual position from position controller X', True], 
+		['RobotPosY', '', 1.0, 0.0, 'Virual position from position controller Y', True], 
+		['Joystick', '', 1.0, 0.0, 'Joystick response', True], 
+		['JoystickResponse', '', 1.0, 0.0, '', True], 
+		['direction', '', 1.0, 0.0, '', True], 
+		['AorP', '', 1.0, 0.0, 'Active or passive trial', True], 
+		['ShowHand', '', 1.0, 0.0, 'When the hand cursor is visible', True], 
+		['HandShiftX', '', 1.0, 0.0, 'Shift in hand cursor X', True], 
+		['HandShiftY', '', 1.0, 0.0, 'Shift in hand cursor Y', True]]
+	</analog_inputs>
+	<blocktable>
+		[['1,2,3', 5, '', False, 0], 
+		['4', 3, '', False, 1], 
+		['1', 3, '', False, 1]]
+	</blocktable>
+	<code>
+		''
+	</code>
+	<data_rate>
+		1000
+	</data_rate>
+	<description>
+		''
+	</description>
+	<feedback_mode>
+		4
+	</feedback_mode>
+	<gaze_feedback_mode>
+		0
+	</gaze_feedback_mode>
+	<instructions>
+		''
+	</instructions>
+	<instructions_default>
+		u''
+	</instructions_default>
+	<last_modified>
+		'2019-11-01  11:30 AM'
+	</last_modified>
+	<loadtable>
+		[[1.0, 5.0, 5000.0, -20.0]]
+	</loadtable>
+	<loadtable_defs>
+		[['Zero Force Zone (cm)', 'float'], ['Wall Width (cm)', 'float'], ['Wall Stiffness', 'float'], ['Wall Viscosity', 'float']]
+	</loadtable_defs>
+	<name>
+		'test'
+	</name>
+	<pause_behaviour>
+		0
+	</pause_behaviour>
+	<random_seed>
+		1
+	</random_seed>
+	<targetfor_ep>
+		('Handle', ['Active', 0, -44], True)
+	</targetfor_ep>
+	<targetfor_exo>
+		['Fingertip', ['Active', 30, 90], True]
+	</targetfor_exo>
+	<targettable>
+		[[0.0, 0.0, 2.0, '255000000', '255000000', 0.2, 0.0, 0.0, ''], 
+		[15.0, 0.0, 1.0, '255255000', '000000255', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[0.0, 0.0, 0.0, '0', '0', 0.0, 0.0, 0.0, ''], 
+		[5.0, -5.0, 2.0, '255255255', '000255000', 0.0, 270.0, 0.0, ''], 
+		[0.0, 5.0, 2.0, '255255255', '000255000', 0.0, 0.0, 0.0, ''], 
+		[-5.0, -5.0, 2.0, '255255255', '000255000', 0.0, 90.0, 0.0, ''], 
+		[0.0, -15.0, 2.0, '255255255', '000255000', 0.0, 180.0, 0.0, ''], 
+		[0.0, 20.0, 0.0, '255000000', '000255000', 0.1, 0.0, 3.0, &quot;''&quot;]]
+	</targettable>
+	<targettable_defs>
+		[['X', 'float'], ['Y', 'float'], ['Visual Radius', 'float'], ['Initial Color', 'colour'], ['Select Color', 'colour'], ['Stroke Width', 'float'], ['Rotation', 'float'], ['Text Height', 'float'], ['Text label', 'label']]
+	</targettable_defs>
+	<tasklevelparams>
+		[['K_TIME_TO_START', '1200'], 
+		['K_HOLDTIME', '1000'], 
+		['K_ROBOT_RAMP_TIME', '500'], 
+		['K_HAND_VEL', '0.05']]
+	</tasklevelparams>
+	<tasklevelparams_defs>
+		[['K_HAND_VEL', 'float'], ['K_HOLDTIME', 'integer'], ['K_ROBOT_RAMP_TIME', 'integer'], ['K_TIME_TO_START', 'integer']]
+	</tasklevelparams_defs>
+	<tptable>
+		[[1, 1200, 1200, 1500, 200, 0, 1000, 500, 0.2, 0.0, 0, 0.0, 0.0], 
+		[1, 1200, 1200, 1500, 200, 90, 1000, 500, 0.2, 0.0, 0, 0.0, 0.0], 
+		[1, 1200, 1200, 1500, 200, 270, 1000, 500, 0.2, 0.2, 0, 0.0, 0.0], 
+		[1, 1200, 1200, 2000, 200, 0, 1000, 500, 0.2, 0.0, 1, 0.05, 0.05]]
+	</tptable>
+	<tptable_defs>
+		[['Start Target', 'target'], ['Time return to start (ms)', 'int'], ['Wait Time in Start (ms)', 'int'], ['Time to move (ms)', 'int'], ['Time of cursor shift (ms)', 'int'], ['Direction of cursor shift (deg)', 'int'], ['Duration cursor shown (ms)', 'int'], ['Post-Trial Delay (ms)', 'int'], ['Cursor X velocity', 'float'], ['Cursor Y velocity', 'float'], ['Active or Passive trial', 'int'], ['ActiveMovementVel Min', 'float'], ['ActiveMovementVel Max', 'float']]
+	</tptable_defs>
+	<use_repeat_trial_flag>
+		0
+	</use_repeat_trial_flag>
+	<version>
+		3.7
+	</version>
+	<video>
+		''
+	</video>
+</task_protocol>
