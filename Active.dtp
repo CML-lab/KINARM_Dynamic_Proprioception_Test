@@ -18,7 +18,7 @@
 		['ForceChannelLeftY', '', 1.0, 0.0, 'Left arm, Force Channel Y', True]]
 	</analog_inputs>
 	<blocktable>
-		[['9,10,11,12,13,14,15,16', 1, '', True, 8]]
+		[['9,10,11,12,13,14,15,16', 1, '', True, 4]]
 	</blocktable>
 	<code>
 		''
@@ -42,7 +42,7 @@
 		u''
 	</instructions_default>
 	<last_modified>
-		'2019-11-05  05:59 PM'
+		'2019-11-12  11:38 AM'
 	</last_modified>
 	<loadtable>
 		[[1.0, 5.0, 5000.0, -10.0]]
